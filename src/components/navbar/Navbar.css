@@ -23,20 +23,19 @@
     gap: 20px;   /* reduced gap for better alignment */
 }
 
-.navbar-basket {
+.navbar-search-icon {
     position: relative;
-    display: flex;
-    align-items: center;
+
 }
 
-.navbar-basket .dot {
-    width: 8px;
-    height: 8px;
-    background: tomato;
-    border-radius: 50%;
+.navbar-search-icon .dot {
     position: absolute;
-    top: -3px;
-    right: -3px;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
 }
 
 .navbar button {
@@ -47,4 +46,25 @@
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar button:hover {
+    background-color: #fff4f2;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+.navbar li{
+    cursor: pointer;
+
+}
+
+.navbar-search-icon{
+    position: relative;
 }
