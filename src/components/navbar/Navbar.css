@@ -15,12 +15,13 @@
     gap: 20px;
     color: #49557e;
     font-size: 18px;
-} 
+}
 
 .navbar-right {
     display: flex;
     align-items: center;
-    gap: 20px;   /* reduced gap for better alignment */
+    gap: 20px;
+    /* reduced gap for better alignment */
 }
 
 .navbar-search-icon {
@@ -55,16 +56,16 @@
     transition: 0.3s;
 }
 
-.navbar .active{
+.navbar .active {
     padding-bottom: 2px;
     border-bottom: 2px solid #49557e;
 }
 
-.navbar li{
+.navbar li {
     cursor: pointer;
 
 }
 
-.navbar-search-icon{
+.navbar-search-icon {
     position: relative;
 }
